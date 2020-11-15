@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "allowJs": true,
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@Models/*": ["./models/*"],
+      "@Components/*": ["./components/*"],
+      "@Constants/*": ["./constants/*"],
+      "@Contexts/*": ["./contexts/*"],
+      "@Helper/*": ["./helper/*"],
+      "@Hooks/*": ["./hooks/*"],
+      "@Pages/*": ["./pages/*"],
+      "@Layout/*": ["./layout/*"],
+      "@Routes/*": ["./routes/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
